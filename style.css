@@ -1,0 +1,74 @@
+.gradient-custom {
+    /* fallback for old browsers */
+    background: #6a11cb;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1))
+    }
+    .emptyCart{
+        height: 200px;
+        width: 200px;
+        background-image: url("resource/ec.png");
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .icon-button{
+        position: absolute;
+        top: 3px;
+        right:-7px;
+        width: 22px;
+        height: 22px;
+        background: red;
+        color: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px;
+    }
+    
+    .emptywl{
+        height: 200px;
+        width: 200px;
+        margin-left: 2000px;
+        background-image: url();
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .emptyltr{
+        height: 200px;
+        width: 200px;
+        background-image: url("resource/ltr.jpg");
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .card-registration .select-input.form-control[readonly]:not([disabled]) {
+        font-size: 1rem;
+        line-height: 2.15;
+        padding-left: .75em;
+        padding-right: .75em;
+        }
+        .card-registration .select-arrow {
+        top: 13px;
+        }
+        .bg-img{
+            background-image: url("resource/bg1.webp");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .gradient-custom {
+            /* fallback for old browsers */
+            background: #cd9cf2;
+            
+            /* Chrome 10-25, Safari 5.1-6 */
+            background: -webkit-linear-gradient(to top left, rgba(205, 156, 242, 1), rgba(246, 243, 255, 1));
+            
+            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            background: linear-gradient(to top left, rgba(205, 156, 242, 1), rgba(246, 243, 255, 1))
+            }
